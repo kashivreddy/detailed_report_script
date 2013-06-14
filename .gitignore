@@ -1,0 +1,4 @@
+.idea/
+*.json
+.DS_Store
+*.log

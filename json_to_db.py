@@ -9,7 +9,7 @@ from sqlalchemy.orm import sessionmaker
 
 Base = declarative_base()
 
-engine = create_engine('mysql://root@localhost/novadailyreport', echo=False)
+engine = create_engine('mysql://root@localhost/ddl', echo=False)
 Session = sessionmaker(bind=engine)
 
 class Error(Base):
